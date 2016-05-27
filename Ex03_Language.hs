@@ -37,7 +37,7 @@ class LambdaLang repr where
 
 
 ------------------------------------------------------------
--- Language evaluation
+-- Expression evaluation
 
 newtype Eval a = Eval { eval :: a }
 
