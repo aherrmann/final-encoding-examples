@@ -9,7 +9,7 @@ data HListG xs where
     HConsG :: x -> HListG xs -> HListG (x ': xs)
 
 -- type can be inferred
-listG :: HListG '[Char, Bool]
+-- listG :: HListG '[Char, Bool]
 listG = HConsG 'a' (HConsG True HNilG)
 
 -- type cannot be inferred
